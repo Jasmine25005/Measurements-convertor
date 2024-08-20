@@ -1,0 +1,163 @@
+header {
+    /* Styles for h1 elements */
+    font-size: 30px;
+    color: lightpink;
+    float: left;
+    padding-left: 2cm;
+}
+header:hover {
+    /* Styles for h1 elements */
+    font-size: 32px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.topdiv {
+    /* Styles for elements with class="highlight" */
+    float: right;
+    padding-right: 1cm;
+ 
+}
+
+.topmenu  {
+      /*Styling for NavigationBarButtons*/color: lightgray;
+      background-color: #6d4e80;
+      margin: 10px;
+      padding: 10px;
+      border-radius: 1mm;
+      font-size: 20px;
+    
+     }
+     .topmenu:hover  {
+        /*StylingforNavigationBarButtons*/color: lightgray;
+        color: white;
+        margin: 10px;
+        transform: translate(-10px, -10px);
+        padding: 10px;
+        border-radius: 1mm;
+        font-size: 20px;
+        text-decoration: wavy;
+        text-decoration: underline;
+        font-weight: bolder;
+        background-color: #a857d7;
+        -webkit-transform: translate(-10px, -10px);
+        -moz-transform: translate(-10px, -10px);
+        -ms-transform: translate(-10px, -10px);
+        -o-transform: translate(-10px, -10px);
+       box-shadow: 2px 2px 5px rgba(228, 19, 19, 0.3);
+}
+.nav-button {
+    /*StaticstylingforNavigationBarButtons*/color: lightgray;
+    background-color: purple;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 1mm;
+    font-size: 20px;
+}
+#all-conversion-sections{
+     display: grid;
+align:vertical; 
+justify-content:center;
+}
+#img{
+    filter:drop-shadow(2px 2px 20px blue) ;
+ width: 200px ;
+    -webkit-filter:drop-shadow(2px 2px 20px blue) ;
+}
+figure{
+    float: left;
+    width: 200px;
+     padding-top: 10px;
+}
+figcaption{
+    color: rgb(185, 53, 53);
+    font-size: 17px;
+    text-align: center;
+    padding-top: 10px;
+}
+button{
+    font-size: 20px;
+    border: transparent;
+    width: fit-content;
+    background-color: #a857d7;
+    color: aliceblue;
+    border-radius: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 10px;
+    margin-left: 36px;
+}
+button:hover {
+    cursor: pointer;
+    font-size: 23px;
+    color: white;
+   
+}
+.b{
+    border-top-style: solid;
+    background-color: whitesmoke;
+    border-top-width: 20px;
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    display: flex;
+
+}
+article{
+    padding-top: 80px;
+}
+
+#temperature.b{
+     border-top: rgb(27, 80, 154) solid 20px;
+     border-radius: 40px 10px 50PX;
+     -webkit-border-radius: 40px 10px 50PX;
+     -moz-border-radius: 40px 10px 50PX;
+     -ms-border-radius: 40px 10px 50PX;
+     -o-border-radius: 40px 10px 50PX;
+}
+
+
+#weight.b{
+    border-top: rgb(27, 80, 154) solid 20px;
+    border-radius: 40px 10px 50PX;
+    -webkit-border-radius: 40px 10px 50PX;
+    -moz-border-radius: 40px 10px 50PX;
+    -ms-border-radius: 40px 10px 50PX;
+    -o-border-radius: 40px 10px 50PX;
+}
+
+#distance.b{
+    border-top: rgb(27, 80, 154) solid 20px;
+    border-radius: 40px 10px 50PX;
+    -webkit-border-radius: 40px 10px 50PX;
+    -moz-border-radius: 40px 10px 50PX;
+    -ms-border-radius: 40px 10px 50PX;
+    -o-border-radius: 40px 10px 50PX;
+}
+
+
+legend {
+    color: rgb(185, 53, 53);
+    font-size: 30px;
+    font-weight:bold;/*Specifies weight of glyphs in the font, their degree of blackness or stroke thickness.*/
+}
+
+/* sets the margin of all the element to 10px on all sides and the background-color to black */
+body{
+    margin: 10px;
+    background-color: rgb(200, 200, 300);
+}
+/* Home section  which has the app name and nav bar. The styling is applied by id */
+#home {
+    background-color:  #6d4e80;
+    padding-bottom: 1cm;
+    margin-left:-1cm;
+    margin-right:-1cm;
+    margin-top:-1cm;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+   }
